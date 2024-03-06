@@ -14,8 +14,8 @@ Feature: webdriveruniversity - Login Page
         Then I should be presented with an alert box which contains text '<expectedAlertText>'
 
         Examples:
-            | username  | password     | expectedAlertText     |
-            | webdriver | webdriver123 | validation succeeded  |
-            | king      | qaTester     | validation failed3333 |
-            | karim     | 23315583     | validation failed     |
+            | username  | password     | expectedAlertText    |
+            | webdriver | webdriver123 | validation succeeded |
+            | king      | qaTester     | validation failed    |
+            | karim     | 23315583     | validation failed    |
 
